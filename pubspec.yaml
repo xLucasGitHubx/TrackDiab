@@ -1,0 +1,35 @@
+name: trackdiab
+description: Un exemple d'application Flutter avec GetX pour le suivi de la glycémie
+publish_to: "none"
+
+# Version de l'application
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Gestion d'état et navigation
+  get: ^4.6.5
+
+  # Pour l'UI et les widgets Flutter
+  cupertino_icons: ^1.0.5
+  flutter_lints: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# Activez les fonts si nécessaire
+# fonts:
+#   - family: OpenSans
+#     fonts:
+#       - asset: assets/fonts/OpenSans-Regular.ttf
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - assets/images/
