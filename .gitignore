@@ -1,0 +1,92 @@
+# Flutter/Dart specific files
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/.symlinks/
+ios/Pods/
+ios/.dart_tool/
+macos/Flutter/ephemeral/
+linux/flutter/
+windows/flutter/
+web/flutter/
+
+# JetBrains IDEs (Android Studio, IntelliJ)
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Xcode
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/
+xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Android
+android/.gradle/
+android/app/*.keystore
+android/app/google-services.json
+android/key.properties
+android/local.properties
+gradle.properties
+*.jks
+
+# Node & JS tools (if used)
+node_modules/
+npm-debug.log
+yarn.lock
+.pnp/
+.pnp.js
+
+# Firebase & Google Services
+firebase.json
+google-services.json
+GoogleService-Info.plist
+
+# Logs & temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.swn
+*.DS_Store
+Thumbs.db
+
+# Generated files from Flutter
+pubspec.lock
+.dart_tool/
+flutter_*.png
+
+# Secrets & Environment Variables
+.env
+.env.*
+*.secret
+credentials.json
+
+# Coverage Reports
+coverage/
+lcov.info
+
+# Build Artifacts
+*.apk
+*.ipa
+*.app
+*.xcarchive
+*.dSYM.zip
+*.dSYM
+
+# Flutter specific
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-version
