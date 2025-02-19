@@ -1,16 +1,10 @@
-Voici un fichier **`README.md`** complet pour ton projet **TrackDiab**.
-
-📍 **Emplacement** : `trackdiab/README.md`
-
----
-
 # **TrackDiab 📱 - Suivi de la Glycémie en Temps Réel**
 
 🚀 **TrackDiab** est une application mobile développée en **Flutter** avec un pattern **GetX**, permettant aux utilisateurs diabétiques de suivre leur glycémie en temps réel. L'application intègre un design **moderne et ergonomique**, une gestion efficace de l'état avec **GetX**, et une architecture bien structurée.
 
 ---
 
-⚠️ **Avertissement Médical** ⚠️
+## ⚠️ **Avertissement Médical**
 
 L'application **TrackDiab** est un outil d'aide au suivi de la glycémie destiné aux utilisateurs souhaitant mieux comprendre leurs données. **Elle ne remplace en aucun cas un avis médical professionnel, un diagnostic ou un traitement prescrit par un professionnel de santé.** Les informations fournies par cette application sont à titre indicatif et ne doivent pas être utilisées pour prendre des décisions médicales critiques sans consultation d'un médecin ou d'un professionnel qualifié. **L'utilisation de TrackDiab se fait sous votre entière responsabilité.** En cas de doute sur votre état de santé, consultez immédiatement un professionnel de santé. 🚨
 
@@ -26,12 +20,13 @@ L'application **TrackDiab** est un outil d'aide au suivi de la glycémie destin�
 - [📷 Captures d'Écran](#captures-décran)
 - [💡 Contribuer](#contribuer)
 - [📜 Licence](#licence)
+- [📞 Contact](#contact)
 
 ---
 
-## 📥 **Installation**
+## 📥 Installation
 
-### **1️⃣ Prérequis**
+### 1️⃣ **Prérequis**
 
 Avant d’installer l’application, assure-toi d’avoir :
 
@@ -39,7 +34,7 @@ Avant d’installer l’application, assure-toi d’avoir :
 - [Android Studio](https://developer.android.com/studio) ou [VS Code](https://code.visualstudio.com/)
 - Un **émulateur Android** ou un **appareil physique** connecté
 
-### **2️⃣ Cloner le projet**
+### 2️⃣ **Cloner le projet**
 
 Ouvre un terminal et exécute :
 
@@ -48,13 +43,13 @@ git clone https://github.com/ton-utilisateur/trackdiab.git
 cd trackdiab
 ```
 
-### **3️⃣ Installer les dépendances**
+### 3️⃣ **Installer les dépendances**
 
 ```bash
 flutter pub get
 ```
 
-### **4️⃣ Démarrer l’application**
+### 4️⃣ **Démarrer l’application**
 
 📱 **Sur un appareil ou un émulateur :**
 
@@ -73,13 +68,13 @@ flutter run
 
 ## 🛠 **Technologies Utilisées**
 
-| Technologie              | Description                           |
-| ------------------------ | ------------------------------------- |
-| **Flutter**              | Framework UI pour Android & iOS       |
-| **Dart**                 | Langage de programmation pour Flutter |
-| **GetX**                 | Gestion d’état et navigation          |
-| **Gradle**               | Build system pour Android             |
-| **Firebase** (optionnel) | Backend et stockage cloud             |
+| Technologie   | Description                           |
+| ------------- | ------------------------------------- |
+| **Flutter**   | Framework UI pour Android & iOS       |
+| **Dart**      | Langage de programmation pour Flutter |
+| **GetX**      | Gestion d’état et navigation          |
+| **Gradle**    | Build system pour Android             |
+| **A Définir** | Backend et stockage cloud             |
 
 ---
 
@@ -176,19 +171,14 @@ Ce projet est sous **licence MIT** - Tu peux l’utiliser librement.
 
 ---
 
-## **📞 Contact**
+## 📞 **Contact**
 
 Si tu as des questions ou besoin d’aide :
-📩 Email : **lucasmadjinda@gmail.com**  
-📩 Email : **cammonp@houtlook.fr**  
-🔗 LinkedIn : [Lucas Madjinda](https://linkedin.com/in/lucasmadjinda)  
-🔗 LinkedIn : [Junior Chimene](https://www.linkedin.com/in/junior-chim%C3%A8ne-2b4a30a4/)
+📩 **Email** : [lucasmadjinda@gmail.com](mailto:lucasmadjinda@gmail.com)  
+📩 **Email** : [cammonp@houtlook.fr](mailto:cammonp@houtlook.fr)  
+🔗 **LinkedIn** : [Lucas Madjinda](https://linkedin.com/in/lucasmadjinda)  
+🔗 **LinkedIn** : [Junior Chimene](https://www.linkedin.com/in/junior-chim%C3%A8ne-2b4a30a4/)
 
 ---
 
 ### **🚀 Prêt à suivre ta glycémie avec TrackDiab ? Laisse-nous un ⭐ sur GitHub !** 🌟
-
----
-
-Avec ce **`README.md`**, ton projet sera **bien documenté et professionnel**.  
-Tu peux bien sûr personnaliser les liens et informations selon ton projet ! 🚀😊
