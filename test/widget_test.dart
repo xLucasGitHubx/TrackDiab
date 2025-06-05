@@ -9,15 +9,19 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:trackdiab/main.dart';
 
 void main() {
-  testWidgets('Home page contains navigation button', (WidgetTester tester) async {
+  testWidgets('Navigate to history page when button tapped', (WidgetTester tester) async {
     // Build the application.
     await tester.pumpWidget(const TrackDiabApp());
 
-    // Verify that the "Voir Historique" button is present.
-    expect(find.text('Voir Historique'), findsOneWidget);
+    // Ensure the "Voir Historique" button is present on the home page.
+    final Finder historyButton = find.text('Voir Historique');
+    expect(historyButton, findsOneWidget);
 
-    // The counter example from the Flutter template is not relevant
-    // for this project, so we only check that the initial home page
-    // is displayed correctly.
+    // Tap the button and trigger navigation.
+    await tester.tap(historyButton);
+    await tester.pumpAndSettle();
+
+    // After navigation, the history page should be displayed.
+    expect(find.text('Historique Glycémie'), findsOneWidget);
   });
 }
